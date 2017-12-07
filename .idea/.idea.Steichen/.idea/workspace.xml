@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74cd2f55-09c6-474b-b3e3-9051db90b00c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Steichen/.idea/contentModel.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Steichen/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Steichen/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.Steichen/riderModule.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Grass_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Grass_1.png.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain 1.asset.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain 2.asset" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain 2.asset.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain.asset" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/New Terrain.asset.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/New Material.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/New Material.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac1.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac1.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac2.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac2.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac3.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac3.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac4.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac4.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac5.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/balzac5.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/dirt!.mat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/Materials/dirt!.mat.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac1.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac2.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac3.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/balzac4.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/dirt!.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Photos/dirt!.jpg.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Terrain Test.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/Terrain Test.unity.meta" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/main.unity" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Assets/main.unity.meta" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Assets/Scripts/Spiraler.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/Spiraler.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -76,13 +35,13 @@
       <file leaf-file-name="Spiraler.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spiraler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
               <folding>
-                <marker date="1512685681655" expanded="false" signature="6:78" ph="..." />
-                <marker date="1512685681655" expanded="true" signature="118:239" ph="{...}" />
-                <marker date="1512685681655" expanded="true" signature="168:175" ph="{...}" />
-                <marker date="1512685681655" expanded="true" signature="230:237" ph="{...}" />
+                <marker date="1512686924348" expanded="true" signature="6:78" ph="..." />
+                <marker date="1512686924348" expanded="true" signature="118:854" ph="{...}" />
+                <marker date="1512686924348" expanded="true" signature="402:535" ph="{...}" />
+                <marker date="1512686924348" expanded="true" signature="589:852" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -102,6 +61,7 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/PrefabSquare.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PrefabCircle.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Spiraler.cs" />
       </list>
     </option>
   </component>
@@ -199,12 +159,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512679488629</updated>
-      <workItem from="1512679494107" duration="1972000" />
+      <workItem from="1512679494107" duration="3122000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1972000" />
+    <option name="totallyTimeSpent" value="3122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -278,13 +238,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Spiraler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="330">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
           <folding>
-            <marker date="1512685681655" expanded="false" signature="6:78" ph="..." />
-            <marker date="1512685681655" expanded="true" signature="118:239" ph="{...}" />
-            <marker date="1512685681655" expanded="true" signature="168:175" ph="{...}" />
-            <marker date="1512685681655" expanded="true" signature="230:237" ph="{...}" />
+            <marker date="1512686924348" expanded="true" signature="6:78" ph="..." />
+            <marker date="1512686924348" expanded="true" signature="118:854" ph="{...}" />
+            <marker date="1512686924348" expanded="true" signature="402:535" ph="{...}" />
+            <marker date="1512686924348" expanded="true" signature="589:852" ph="{...}" />
           </folding>
         </state>
       </provider>
