@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Spiraler : MonoBehaviour {
 
-	public float circleSpeed = 1;
-	public float forwardSpeed = -1; // Assuming negative Z is towards the camera
-	public float circleSize = 1;
-	public float moveSpeed = 0.1f;
+	public float circleSpeed;
+	public float forwardSpeed;
+	public float circleSize;
+	public float circleGrowSpeed;
  
 	public float xPos;
 	public float yPos; 
@@ -18,7 +18,6 @@ public class Spiraler : MonoBehaviour {
 		xPos = gameObject.transform.position.x;
 		yPos = gameObject.transform.position.y;
 		zPos = gameObject.transform.position.z;
-
 	}
 	
 	// Update is called once per frame
@@ -29,7 +28,7 @@ public class Spiraler : MonoBehaviour {
 		zPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
 //		zPos += forwardSpeed * Time.deltaTime;
 		
-		circleSize += moveSpeed;
+		circleSize -= circleGrowSpeed;
 		
 		gameObject.transform.position = new Vector3(xPos, 0,zPos); 
 	}
