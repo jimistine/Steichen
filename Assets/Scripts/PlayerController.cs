@@ -22,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private void HandleTriggerClicked(object sender, ClickedEventArgs e)
     {
         SpawnCurrentPrimitiveAtController();
+        Stop
     }
 
     private void SpawnCurrentPrimitiveAtController()

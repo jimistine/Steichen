@@ -2,45 +2,41 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-using Valve.VR.InteractionSystem;
 
 public class Spiraler : MonoBehaviour {
 
-    private SteamVR_TrackedController _controller;
-
-
-    public float circleSpeed;
+	public float circleSpeed;
 	public float forwardSpeed;
 	public float circleSize;
 	public float circleChangeSpeed;
  
 	public float xPos;
 	public float yPos; 
-	public float zPos;
-
-    public bool spiral = true;
-
-
+	public float zPos;	
+	
+	public bool spiral_out;
+	public  bool spiral_in = true;
+    // Use this for initialization
     void Start()
     {
         xPos = gameObject.transform.position.x;
+        //		yPos = gameObject.transform.position.y;
         zPos = gameObject.transform.position.z;
     }
-
+    // Update is called once per frame
     void Update()
     {
-        if (GM.Player.Stop)
+
+        xPos = Mathf.Sin(Time.time * circleSpeed) * circleSize;
+        zPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
+        //		zPos += forwardSpeed * Time.deltaTime;
+
+        gameObject.transform.position = new Vector3(xPos, yPos, zPos);
+        circleSize += circleChangeSpeed;
+
+        if (circleSize < -50)
         {
-            xPos = Mathf.Sin(Time.time * circleSpeed) * circleSize;
-            zPos = Mathf.Cos(Time.time * circleSpeed) * circleSize;
-
-            gameObject.transform.position = new Vector3(xPos, yPos, zPos);
-            circleSize += circleChangeSpeed;
-
-            if (circleSize < -50)
-            {
-                circleSize -= circleChangeSpeed;
-            }
+            circleSize -= circleChangeSpeed;
         }
     }	
 }
